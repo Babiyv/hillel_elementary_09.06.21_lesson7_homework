@@ -1,0 +1,295 @@
+Microsoft Windows [Version 10.0.19042.1052]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git init
+Initialized empty Git repository in C:/Users/Admin/IdeaProjects/hillel_elementary_09.06.21_lesson7_homework/.git/
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git add -A
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git commit -m "master initial commit"
+[master (root-commit) 2f6f63c] master initial commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout -b develop
+Switched to a new branch 'develop'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git commit -m "develop initial commit"
+On branch develop
+nothing to commit, working tree clean
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout -b lesson1
+Switched to a new branch 'lesson1'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout lesson1
+Switched to branch 'lesson1'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git add -A
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git commit -m "practice to work with abstracts, enum, encapsulation, polymorphism and etc"
+[lesson1 9d1297e] practice to work with abstracts, enum, encapsulation, polymorphism and etc
+ 9 files changed, 242 insertions(+)
+ create mode 100644 src/homework/lesson1/Admin.java
+ create mode 100644 src/homework/lesson1/AdminService.java
+ create mode 100644 src/homework/lesson1/GeneralService.java
+ create mode 100644 src/homework/lesson1/Main.java
+ create mode 100644 src/homework/lesson1/Person.java
+ create mode 100644 src/homework/lesson1/Role.java
+ create mode 100644 src/homework/lesson1/Service.java
+ create mode 100644 src/homework/lesson1/User.java
+ create mode 100644 src/homework/lesson1/UserService.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout -b lesson2
+Switched to a new branch 'lesson2'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout lesson1
+Switched to branch 'lesson1'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git add -A
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git commit -m "use some tricks"
+[develop aaa5e25] use some tricks
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/homework/fake
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout lesson2
+Switched to branch 'lesson2'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout -b lesson2
+Switched to a new branch 'lesson2'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git add -A
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git commit -m "practice to work with collections"
+[lesson2 12a116e] practice to work with collections
+ 3 files changed, 162 insertions(+)
+ create mode 100644 src/homework/lesson2/Information.java
+ create mode 100644 src/homework/lesson2/InitializationData.java
+ create mode 100644 src/homework/lesson2/Main.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout -b lesson4
+Switched to a new branch 'lesson4'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git add -A
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git commit -m "practice to work with exceptions"
+[lesson4 ea1a950] practice to work with exceptions
+ 7 files changed, 237 insertions(+)
+ create mode 100644 src/homework/lesson4/Main.java
+ create mode 100644 src/homework/lesson4/entities/Client.java
+ create mode 100644 src/homework/lesson4/exceptions/UserExpectedError.java
+ create mode 100644 src/homework/lesson4/exceptions/WrongFieldException.java
+ create mode 100644 src/homework/lesson4/exceptions/WrongSumException.java
+ create mode 100644 src/homework/lesson4/services/TransactionService.java
+ create mode 100644 src/homework/lesson4/utils/Helper.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout lesson2
+Switched to branch 'lesson2'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout lesson1
+Switched to branch 'lesson1'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout -b lesson6
+Switched to a new branch 'lesson6'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git add -A
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git commit -m "practice to work with spring"
+[lesson6 22ab8f5] practice to work with spring
+ 5 files changed, 149 insertions(+)
+ create mode 100644 src/homework/lesson6/Main.java
+ create mode 100644 src/homework/lesson6/exceptions/StringFormatException.java
+ create mode 100644 src/homework/lesson6/utils/StringHelper.java
+ create mode 100644 src/homework/lesson6/utils/Test.java
+ create mode 100644 src/homework/lesson6/utils/ValidationHelper.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git merge lesson1
+Merge made by the 'recursive' strategy.
+ src/homework/lesson1/Admin.java          |  7 +++
+ src/homework/lesson1/AdminService.java   | 19 ++++++++
+ src/homework/lesson1/GeneralService.java | 46 +++++++++++++++++++
+ src/homework/lesson1/Main.java           | 35 ++++++++++++++
+ src/homework/lesson1/Person.java         | 79 ++++++++++++++++++++++++++++++++
+ src/homework/lesson1/Role.java           | 20 ++++++++
+ src/homework/lesson1/Service.java        | 23 ++++++++++
+ src/homework/lesson1/User.java           |  7 +++
+ src/homework/lesson1/UserService.java    |  6 +++
+ 9 files changed, 242 insertions(+)
+ create mode 100644 src/homework/lesson1/Admin.java
+ create mode 100644 src/homework/lesson1/AdminService.java
+ create mode 100644 src/homework/lesson1/GeneralService.java
+ create mode 100644 src/homework/lesson1/Main.java
+ create mode 100644 src/homework/lesson1/Person.java
+ create mode 100644 src/homework/lesson1/Role.java
+ create mode 100644 src/homework/lesson1/Service.java
+ create mode 100644 src/homework/lesson1/User.java
+ create mode 100644 src/homework/lesson1/UserService.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git merge lesson2
+Merge made by the 'recursive' strategy.
+ src/homework/lesson2/Information.java        | 53 ++++++++++++++++++++++++++
+ src/homework/lesson2/InitializationData.java | 52 +++++++++++++++++++++++++
+ src/homework/lesson2/Main.java               | 57 ++++++++++++++++++++++++++++
+ 3 files changed, 162 insertions(+)
+ create mode 100644 src/homework/lesson2/Information.java
+ create mode 100644 src/homework/lesson2/InitializationData.java
+ create mode 100644 src/homework/lesson2/Main.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git merge lesson4
+Merge made by the 'recursive' strategy.
+ src/homework/lesson4/Main.java                     | 89 ++++++++++++++++++++++
+ src/homework/lesson4/entities/Client.java          | 62 +++++++++++++++
+ .../lesson4/exceptions/UserExpectedError.java      |  8 ++
+ .../lesson4/exceptions/WrongFieldException.java    |  8 ++
+ .../lesson4/exceptions/WrongSumException.java      |  8 ++
+ .../lesson4/services/TransactionService.java       | 14 ++++
+ src/homework/lesson4/utils/Helper.java             | 48 ++++++++++++
+ 7 files changed, 237 insertions(+)
+ create mode 100644 src/homework/lesson4/Main.java
+ create mode 100644 src/homework/lesson4/entities/Client.java
+ create mode 100644 src/homework/lesson4/exceptions/UserExpectedError.java
+ create mode 100644 src/homework/lesson4/exceptions/WrongFieldException.java
+ create mode 100644 src/homework/lesson4/exceptions/WrongSumException.java
+ create mode 100644 src/homework/lesson4/services/TransactionService.java
+ create mode 100644 src/homework/lesson4/utils/Helper.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git merge lesson6
+Merge made by the 'recursive' strategy.
+ src/homework/lesson6/Main.java                     | 30 +++++++++++++
+ .../lesson6/exceptions/StringFormatException.java  |  8 ++++
+ src/homework/lesson6/utils/StringHelper.java       | 50 ++++++++++++++++++++++
+ src/homework/lesson6/utils/Test.java               | 11 +++++
+ src/homework/lesson6/utils/ValidationHelper.java   | 50 ++++++++++++++++++++++
+ 5 files changed, 149 insertions(+)
+ create mode 100644 src/homework/lesson6/Main.java
+ create mode 100644 src/homework/lesson6/exceptions/StringFormatException.java
+ create mode 100644 src/homework/lesson6/utils/StringHelper.java
+ create mode 100644 src/homework/lesson6/utils/Test.java
+ create mode 100644 src/homework/lesson6/utils/ValidationHelper.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git checkout master
+Switched to branch 'master'
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git merge develop
+Updating 2f6f63c..180a586
+Fast-forward
+ src/homework/fake                                  |  1 +
+ src/homework/lesson1/Admin.java                    |  7 ++
+ src/homework/lesson1/AdminService.java             | 19 +++++
+ src/homework/lesson1/GeneralService.java           | 46 +++++++++++
+ src/homework/lesson1/Main.java                     | 35 +++++++++
+ src/homework/lesson1/Person.java                   | 79 +++++++++++++++++++
+ src/homework/lesson1/Role.java                     | 20 +++++
+ src/homework/lesson1/Service.java                  | 23 ++++++
+ src/homework/lesson1/User.java                     |  7 ++
+ src/homework/lesson1/UserService.java              |  6 ++
+ src/homework/lesson2/Information.java              | 53 +++++++++++++
+ src/homework/lesson2/InitializationData.java       | 52 +++++++++++++
+ src/homework/lesson2/Main.java                     | 57 ++++++++++++++
+ src/homework/lesson4/Main.java                     | 89 ++++++++++++++++++++++
+ src/homework/lesson4/entities/Client.java          | 62 +++++++++++++++
+ .../lesson4/exceptions/UserExpectedError.java      |  8 ++
+ .../lesson4/exceptions/WrongFieldException.java    |  8 ++
+ .../lesson4/exceptions/WrongSumException.java      |  8 ++
+ .../lesson4/services/TransactionService.java       | 14 ++++
+ src/homework/lesson4/utils/Helper.java             | 48 ++++++++++++
+ src/homework/lesson6/Main.java                     | 30 ++++++++
+ .../lesson6/exceptions/StringFormatException.java  |  8 ++
+ src/homework/lesson6/utils/StringHelper.java       | 50 ++++++++++++
+ src/homework/lesson6/utils/Test.java               | 11 +++
+ src/homework/lesson6/utils/ValidationHelper.java   | 50 ++++++++++++
+ 25 files changed, 791 insertions(+)
+ create mode 100644 src/homework/fake
+ create mode 100644 src/homework/lesson1/Admin.java
+ create mode 100644 src/homework/lesson1/AdminService.java
+ create mode 100644 src/homework/lesson1/GeneralService.java
+ create mode 100644 src/homework/lesson1/Main.java
+ create mode 100644 src/homework/lesson1/Person.java
+ create mode 100644 src/homework/lesson1/Role.java
+ create mode 100644 src/homework/lesson1/Service.java
+ create mode 100644 src/homework/lesson1/User.java
+ create mode 100644 src/homework/lesson1/UserService.java
+ create mode 100644 src/homework/lesson2/Information.java
+ create mode 100644 src/homework/lesson2/InitializationData.java
+ create mode 100644 src/homework/lesson2/Main.java
+ create mode 100644 src/homework/lesson4/Main.java
+ create mode 100644 src/homework/lesson4/entities/Client.java
+ create mode 100644 src/homework/lesson4/exceptions/UserExpectedError.java
+ create mode 100644 src/homework/lesson4/exceptions/WrongFieldException.java
+ create mode 100644 src/homework/lesson4/exceptions/WrongSumException.java
+ create mode 100644 src/homework/lesson4/services/TransactionService.java
+ create mode 100644 src/homework/lesson4/utils/Helper.java
+ create mode 100644 src/homework/lesson6/Main.java
+ create mode 100644 src/homework/lesson6/exceptions/StringFormatException.java
+ create mode 100644 src/homework/lesson6/utils/StringHelper.java
+ create mode 100644 src/homework/lesson6/utils/Test.java
+ create mode 100644 src/homework/lesson6/utils/ValidationHelper.java
+
+C:\Users\Admin\IdeaProjects\hillel_elementary_09.06.21_lesson7_homework>git log
+commit 180a5864ad7ec830cafe5a7a8febd9966341c877 (HEAD -> master, develop)
+Merge: f82bf00 22ab8f5
+Author: Babiyv <377064910Vo>
+Date:   Thu Jul 1 23:04:32 2021 +0300
+
+    Merge branch 'lesson6' into develop
+
+commit f82bf004246f303b824182da6209c7c64c8403fe
+Merge: da8a73d ea1a950
+Author: Babiyv <377064910Vo>
+:
+
+commit 180a5864ad7ec830cafe5a7a8febd9966341c877 (HEAD -> master, develop)
+Merge: f82bf00 22ab8f5
+Author: Babiyv <377064910Vo>
+Date:   Thu Jul 1 23:04:32 2021 +0300
+
+    Merge branch 'lesson6' into develop
+
+commit f82bf004246f303b824182da6209c7c64c8403fe
+Merge: da8a73d ea1a950
+Author: Babiyv <377064910Vo>
+:...skipping...
+commit 180a5864ad7ec830cafe5a7a8febd9966341c877 (HEAD -> master, develop)
+Merge: f82bf00 22ab8f5
+Author: Babiyv <377064910Vo>
+Date:   Thu Jul 1 23:04:32 2021 +0300
+
+    Merge branch 'lesson6' into develop
+
+commit f82bf004246f303b824182da6209c7c64c8403fe
+Merge: da8a73d ea1a950
+Author: Babiyv <377064910Vo>
+Date:   Thu Jul 1 23:04:26 2021 +0300
+
+    Merge branch 'lesson4' into develop
+:...skipping...
+commit 180a5864ad7ec830cafe5a7a8febd9966341c877 (HEAD -> master, develop)
+Merge: f82bf00 22ab8f5
+Author: Babiyv <377064910Vo>
+Date:   Thu Jul 1 23:04:32 2021 +0300
+
+    Merge branch 'lesson6' into develop
+
+commit f82bf004246f303b824182da6209c7c64c8403fe
+Merge: da8a73d ea1a950
+Author: Babiyv <377064910Vo>
+Date:   Thu Jul 1 23:04:26 2021 +0300
+
+    Merge branch 'lesson4' into develop
+
+:
